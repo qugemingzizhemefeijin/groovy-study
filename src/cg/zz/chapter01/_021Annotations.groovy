@@ -75,4 +75,22 @@ println()
 @Newify([Person, CreditCard])
 def fluentCreate() {
     println Person.new(firstName: "John", lastName: "Doe", age: 30)
+    println Person(firstName: "John", lastName: "Doe", age: 20)
+    println CreditCard("112-11-1-2-23-222", 2000)
 }
+
+fluentCreate()
+
+// 单例，使用 @Singleton 会使目标类的构造器成为私有的
+@Singleton(lazy = true)
+class TheUnique {
+
+    def hello(){
+        print 'hello'
+    }
+}
+
+println "Accessing TheUnique"
+TheUnique.instance.hello()
+TheUnique.instance.hello()
+println '=============='
