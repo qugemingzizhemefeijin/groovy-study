@@ -1,0 +1,4 @@
+moduleName=price-module
+moduleVersion=1.0-test
+extensionClasses=cg.zz.chapter06.PriceExtension
+staticExtensionClasses=cg.zz.chapter06.PriceStaticExtension
