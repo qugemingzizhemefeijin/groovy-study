@@ -5,6 +5,15 @@ import groovy.xml.MarkupBuilder
 
 import java.sql.ResultSet
 
+/*
+class RunTest extends TestBase {
+    void testWeather() {
+        result = " groovy -classpath /opt/java/mysql/mysql-connector-java-5.1.18/mysql-connector-java-5.1.18-bin.jar Weather.groovy".execute().text
+        assertResultMatchesFileContent 'Weather.output'
+    }
+}
+*/
+
 // mysql 数据库读取
 
 // 必须添加这两个注解，加载数据库连接驱动包
