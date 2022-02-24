@@ -15,7 +15,7 @@ GROOVY_HOME = D:\Program Files (x86)\Groovy
 PATH = %GROOVY_HOME%\bin
 ```
 
-#### 3.其他只是
+#### 3.其他知识
 
 ![avatar](img/groovy如何处理POGO上的方法调用.jpg)
 
