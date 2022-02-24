@@ -14,3 +14,9 @@ Groovy2.5.15 for Windows 参考资料 【Groovy程序设计】
 GROOVY_HOME = D:\Program Files (x86)\Groovy
 PATH = %GROOVY_HOME%\bin
 ```
+
+#### 3.其他只是
+
+![avatar](img/groovy如何处理POGO上的方法调用.jpg)
+
+![avatar](img/pojo、pogo、metaclass关系.png)
