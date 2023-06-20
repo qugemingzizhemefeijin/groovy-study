@@ -4,3 +4,9 @@ package cg.zz.chapter09
 
 println "Hello ${name}"
 name = "Dan"
+
+if (binding.hasVariable('xxx')) {
+    println "xxx found"
+} else {
+    println "xxx not found"
+}
