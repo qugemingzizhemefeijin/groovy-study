@@ -21,3 +21,13 @@ on December 24th. Great news in time for...
 
 println message
 
+// map读取
+langs = ['C++' : 'Stroustrup', Java : 'Gosling', Lisp : 'McCarthy']
+println langs
+
+message = """We're very pleased to announce
+that our stock price hit a high of ${langs.get("C++")} per share
+on December 24th. Great news in time for...
+"""
+
+println message
